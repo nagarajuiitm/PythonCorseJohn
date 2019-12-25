@@ -8,7 +8,7 @@ Created on Fri Dec 20 09:39:25 2019
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
-
+#Commit demo
 def GetNewsDetailsFromBSEWebPage():
     driver = webdriver.Chrome('N:\GitHub\PythonCorseJohn\WebScraping\chromedriver')
     driver.get('https://www.bseindia.com/corporates/ann.html') 
